@@ -1,0 +1,12 @@
+.btn {
+    background-color: transparent;
+    border-radius: 16px;
+    border-color: black;
+    color: black;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}

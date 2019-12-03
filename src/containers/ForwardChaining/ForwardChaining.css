@@ -1,0 +1,32 @@
+.AtomRes {
+    padding: 10px;
+    text-align: left;
+}
+
+.titleConc {
+    text-align: left;
+    margin-left: 100px;
+}
+
+.conclusions{
+    max-width: 100%;
+    border: 1px solid #dddddd;
+    box-shadow: 3px 3px #cccccc;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    align-content: left;
+    border-radius: 8px;
+}
+
+.inputs{
+    max-width: 100%;
+    border: 1px solid #dddddd;
+    box-shadow: 3px 3px #cccccc;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    align-content: left;
+    border-radius: 8px;
+    padding: 20px;
+}

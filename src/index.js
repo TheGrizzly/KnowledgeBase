@@ -3,8 +3,24 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import {BrowserRouter} from 'react-router-dom';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import atomReducer from './store/reducers/atoms';
+import ruleReducer from './store/reducers/rules';
+import { combineReducers } from 'redux';
+
+const rootReducer = combineReducers({
+    atom: atomReducer,
+    rules: ruleReducer,
+});
+
+const app = (
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>
+);
+
+ReactDOM.render(app, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
