@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@shopify/polaris": "^3.10.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-redux": "^6.0.1",
